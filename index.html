@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Social Dashboard</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-newspaper"></i> Posts</a></li>
+                    <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="sidebar">
+            <div class="social-accounts">
+                <h3>Connected Accounts</h3>
+                <ul>
+                    <li><i class="fab fa-twitter"></i> Twitter</li>
+                    <li><i class="fab fa-facebook"></i> Facebook</li>
+                    <li><i class="fab fa-instagram"></i> Instagram</li>
+                </ul>
+                <button class="btn connect-btn">Connect Account</button>
+            </div>
+            
+            <div class="quick-stats">
+                <h3>Quick Stats</h3>
+                <div class="stat-item">
+                    <span>Posts Today</span>
+                    <span class="stat-value">12</span>
+                </div>
+                <div class="stat-item">
+                    <span>New Followers</span>
+                    <span class="stat-value">24</span>
+                </div>
+                <div class="stat-item">
+                    <span>Engagement</span>
+                    <span class="stat-value">78%</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Welcome to Your Dashboard</h2>
+                </div>
+                <div class="card-body">
+                    <p>View and manage all your social media activity from one place.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-users"></i>
+                            <h3>Total Followers</h3>
+                            <p>1,245</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-heart"></i>
+                            <h3>Total Likes</h3>
+                            <p>5,678</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-comment"></i>
+                            <h3>Total Comments</h3>
+                            <p>1,023</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-share"></i>
+                            <h3>Total Shares</h3>
+                            <p>789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Recent Activity</h2>
+                </div>
+                <div class="card-body">
+                    <div class="activity-item">
+                        <i class="fab fa-twitter"></i>
+                        <div class="activity-content">
+                            <p>New follower on Twitter: @johndoe</p>
+                            <small>2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <i class="fab fa-facebook"></i>
+                        <div class="activity-content">
+                            <p>Your post got 24 likes on Facebook</p>
+                            <small>5 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <i class="fab fa-instagram"></i>
+                        <div class="activity-content">
+                            <p>New comment on your Instagram post</p>
+                            <small>Yesterday</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2023 Social Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
